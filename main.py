@@ -1,4 +1,7 @@
-"""
+"""from source_span_tracker import parse_pdf_with_character_spans, Map_extracted_entity_to_source_span
+from ner_schema_extractor import generate_extraction_prompt, validate_extraction_response
+from hallucination_guardrail import verify_and_filter_hallucinations
+from benchmark_logger import log_test_run_to_benchmark
 Iron Man vs. Chordoma: Operative Demo Pipeline
 Simulates live ingestion from public PubMed and ClinicalTrials.gov APIs,
 executes multi-agent extraction, evidence tiering, and side-by-side conflict resolution.
